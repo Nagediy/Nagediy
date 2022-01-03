@@ -23,3 +23,11 @@ Stop wasting your valuabel time with .yaml config files and command line configu
 - RSS
 - Sitemap
 - GDPR Cookie
+
+## Info
+
+Best for small websites. Blogs are possible, but require a powerful machine to process fast.
+
+## Warning
+
+Use small hierarchies and avoid loopholes to increase processing performance.
