@@ -31,3 +31,7 @@ Best for small websites. Blogs are possible, but require a powerful machine to p
 ## Warning
 
 Use small hierarchies and avoid loopholes to increase processing performance.
+
+## Examples
+
+See https://github.com/kreativ-anders/Nagediy (Archive)
