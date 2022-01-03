@@ -11,6 +11,7 @@ Stop wasting your valuabel time with .yaml config files and command line configu
 - automatic CSS/JS/Image optimization (with the right tools)
 - static .html files
 - PUG as template engine to reuse HTML
+- Just files and folders (really!)
 
 ## Tools
 
