@@ -28,6 +28,8 @@ Stop wasting your valuabel time with .yaml config files and command line configu
 
 Best for small websites. Blogs are possible, but require a powerful machine to process fast.
 
+The folder setup leads to URLS with a traling slash at the end. Please be aware of that fact, since it may be important when upgrading to another solution, e.g. CMS.
+
 ## Warning
 
 Use small hierarchies and avoid loopholes to increase processing performance.
