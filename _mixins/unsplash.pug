@@ -1,9 +1,0 @@
-mixin unsplash(id='3Ijt7UkSBYE', size='1200x800', author='Ashim D’Silva', link='https://unsplash.com/@randomlies')
-
-  figure
-    img(src='https://source.unsplash.com/' + id + '/' + size  width=size.substring(0,size.indexOf('x')) height=size.substring(size.indexOf('x')+1, size.length) alt='Unpslash Photo' loading='lazy')
-    figcaption 
-      | Photo by 
-      a(href=link)= author + ' '
-      | on 
-      a(href='https://unsplash.com') Unsplash.com
