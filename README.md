@@ -124,5 +124,5 @@ In case this boilerplate saved you some time and energy consider supporting krea
 ## Examples
 
 
-- See https://github.com/kreativ-anders/website (Private, new example comes soon)
+- See https://github.com/kreativ-anders/website (Private, new example coming soon)
 - See https://github.com/Manuel-Steinberg/Lesestoff (Private book collection)
