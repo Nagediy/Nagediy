@@ -1,41 +1,31 @@
-footer#footer.fluid(data-theme="dark")
+footer
   .grid
     div
-      a(href='/#')
-        include logo.pug
       p 
-        span.brand kreativ-anders 
+        span kreativ-anders 
         | ® | Manuel Steinberg
-      i © #{new Date().getFullYear()} Alle Rechte vorbehalten.
+      i © #{new Date().getFullYear()} All rights reserverd.
     div
       b Links
       ul
         li
-          a(href='/blog/') Blog
+          a(href='/page1/') Page1
         li
-          a(href='https://kreativ-anders.myspreadshop.de/') Shop
-        li
-          a(href='https://github.com/kreativ-anders') GitHub
+          a(href='/page2/') Page2
     div
-      b Kontakt
+      b Contact
       ul
         li
           a(href='https://www.linkedin.com/company/kreativ-anders') LinkedIn
         li
           a(href='mailto:hallo@kreativ-anders.de') Mail
     div
-      b Unternehmen
+      b Company
       ul
         li
-          a(href='/impressum/').secondary Impressum
+          a(href='/#') Imprint
         li
-          a(href='/datenschutz/').secondary Datenschutz
-        li
-          a(href='/agb/').secondary AGB
-        li
-          a(href='/widerruf/').secondary Widerruf
-  
-
+          a(href='/#') Privacy
 
 </body>
 </html>
