@@ -1,0 +1,5 @@
+mixin cta(slogan='Wir schaffen innovative nachhaltige digitale Lösungen.')
+  section#hero.container
+
+    h1(data-sign=slogan.substring(slogan.length - 1)).cta=slogan.substring(0, slogan.length - 1)
+    a(role='button' href="/kontakt/" class='cta') Kontakt
