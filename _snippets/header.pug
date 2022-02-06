@@ -4,31 +4,18 @@ doctype html
     // Meta
     title #{meta_title}
 
-    //base(href='https://kreativ-anders.de')
     meta(charset="utf-8")
     meta(name="viewport", content="width=device-width,initial-scale=1,user-scalable=yes")
     meta(name="description", content=meta_description)
 
     // Performance
-    link(rel="preconnect" href="https://fonts.googleapis.com")
-    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
-    link(rel="preconnect" href="https://source.unsplash.com")
+    //link(rel="preconnect" href="https://fonts.googleapis.com")
+    //link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    //link(rel="preconnect" href="https://source.unsplash.com")
     
-    if meta_date
-      meta(name="date", content=meta_date)
-
-    if meta_revised
-      meta(name="revised", content=meta_revised)
-
-    if meta_author
-      meta(name="author", content=meta_author)
-
     if meta_keywords
       meta(name="keywords", content=meta_keywords)
     
-    link(rel="icon", href="/favicon.ico")
-    //link(rel="canonical", href="https://kreativ-anders.de")
-
     // Open Graph
     meta(property='og:site_name', content=meta_title)
     meta(property='og:title', content=meta_title)
@@ -48,10 +35,10 @@ doctype html
     meta(property='twitter:card', content='summary_large_image')
 
     // Styles
-    link(rel="stylesheet" href="kreativ.min.css" + '?v=' + Date.now())
+    link(rel="stylesheet" href="main.min.css" + '?v=' + Date.now())
 
     // Fonts
-    link(rel="preload" href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Oswald:wght@200;400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet';")
+    link(rel="preload" href="https://fonts.googleapis.com/css2?family=Merriweather" as="style" onload="this.onload=null;this.rel='stylesheet';")
     noscript
       link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Oswald:wght@200;400&display=swap")
 
@@ -62,10 +49,5 @@ doctype html
     link(rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png")
     link(rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png")
     link(rel="manifest" href="/manifest.json")
-
-    script(defer type="text/javascript" src="https://api.pirsch.io/pirsch.js" id="pirschjs" data-code="mpFOcVLsyK15n9c9HoJFZHFqdevzmmci")
     
   <body>
-
-//-include ../_mixins/themeswitcher.pug 
-//-+themeswitcher()
